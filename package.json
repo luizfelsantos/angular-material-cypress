@@ -1,0 +1,27 @@
+{
+  "name": "angular-material-cypress",
+  "version": "0.0.0",
+  "description": "Simplified Cypress interaction with Angular Material components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular",
+    "material",
+    "cypress",
+    "testing"
+  ],
+  "author": "Luiz Felipe dos Santos",
+  "license": "MIT",
+  "packageManager": "pnpm@10.11.0",
+  "bugs": "https://github.com/luizfelsantos/angular-material-cypress/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luizfelsantos/angular-material-cypress.git"
+  },
+  "engines": {
+    "node": ">=18.20.3",
+    "pnpm": "10.11.0"
+  }
+}
