@@ -23,5 +23,11 @@
   "engines": {
     "node": ">=18.20.3",
     "pnpm": "10.11.0"
+  },
+  "devDependencies": {
+    "cypress": "^14.3.3"
+  },
+  "peerDependencies": {
+    "cypress": "^14.3.3"
   }
 }
