@@ -2,9 +2,11 @@
   "name": "angular-material-cypress",
   "version": "0.0.0",
   "description": "Simplified Cypress interaction with Angular Material components",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
   },
   "keywords": [
     "angular",
@@ -40,8 +42,10 @@
     "eslint-plugin-prettier": "5.4.0",
     "eslint-plugin-unused-imports": "4.1.4",
     "globals": "16.1.0",
+    "husky": "9.1.7",
     "lint-staged": "16.0.0",
     "prettier": "3.5.3",
+    "pretty-quick": "4.1.1",
     "typescript": "5.8.3",
     "typescript-eslint": "8.32.1"
   },
